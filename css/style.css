@@ -1,0 +1,243 @@
+p {
+  color: rgb(249, 252, 252);
+font-size: 30px;
+text-align: center;
+}
+ 
+title {
+  color: rgb(254, 253, 255);
+}
+h1 class{
+  color: blue;
+ 
+}
+h3{
+color: rgb(247, 247, 250);
+text-align: center
+;
+
+}
+
+body{
+background-color:white;
+overflow-x: hidden;
+
+}
+
+div{
+  color: aquamarine;
+}
+
+header p{
+  color: white
+}
+nav li{
+  color: black;
+
+}
+
+nav a{
+  color: rgb(248, 250, 244);}
+  *{margin: 0;
+  padding: 0;
+  border: 0;
+}
+header{
+  background-color:black;
+  border: solid 3px white;
+  border-radius: 1px;
+  padding: 20px;
+}
+
+footer{
+  background-color:black;
+  overflow-x: hidden;
+  border: solid 3px white;
+  border-radius: 1px;
+  margin: opx;
+  
+}
+main{
+  background-color:black;
+}
+
+article{
+  width: 20%;
+  padding: 10px;
+  border: solid 3px white;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+section h2{
+  color: rgb(241, 240, 240);
+  text-align: center;
+
+}
+
+nav ul{
+display: flex;
+flex-direction:column-reverse;
+justify-content: space-between;
+
+}
+
+nav li{
+margin: 70px;
+text-align: justify;
+}
+
+.cards{
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: wrap;
+  justify-content: center
+  
+   }
+
+article{
+  width: 30%;
+  padding: 10px;
+  border: solid 3px chocolate;
+  border-radius: 10px;
+  margin: 10px;
+  color: chartreuse;
+}
+
+article button{
+width: 50%;
+margin: 10px;
+background-color: rgb(243, 242, 242);
+color: black;
+border: solid rgb(247, 244, 244) 3px;
+border-radius: 10px;
+height: 30px
+}
+
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+nav p{
+  font-size: small;
+}
+
+.alinear{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+.redes{
+margin: 10px;
+
+
+}
+
+.row{
+  align-items: center;
+}
+ 
+.container-fluid{
+background-color:black;
+border: 0px;
+margin: 0px;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: last baseline;
+}
+
+.tiktok{
+  background: black;
+}
+
+.instagram{
+  background: black;
+}
+
+.facebook{
+  background: black;
+}
+
+.footer2{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: last baseline;
+}
+
+.navegador{
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height:30vh;
+  padding: 10px;
+  justify-items: center;
+  align-items: baseline;
+  }
+
+.logoo{
+ display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center
+}
+
+.container2{
+ display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center
+    
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 425px){
+  .cards{
+    flex-direction: column;
+    align-items: center;
+  }
+ .navegador{
+  display: grid;
+  grid-template-rows:repeat(3, 1fr) ;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: baseline;
+  height:70vh;
+  
+ }
+ .grid{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: last baseline;
+    height: 100vph;
+ 
+    }
+    .footer2{
+      display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-items: last baseline;
+    
+    }
+ 
+}
+
+ 
+  
+  
+
