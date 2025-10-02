@@ -234,6 +234,9 @@ margin: 0px;
     justify-items: last baseline;
     
     }
+    .body{
+      overflow-x: hidden
+    }
  
 }
 
