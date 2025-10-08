@@ -1,0 +1,112 @@
+p {
+  color:$colortexto;
+  font-size: 30px;
+  text-align: center;
+}
+
+title {
+  color:$colortexto;
+}
+h1 class{
+  color: $colortexto;
+   }
+h3{
+color:$colortexto;
+text-align: center;
+}
+
+
+div{
+  color: $colortexto;
+}
+
+header p{
+  color: $colortexto;
+}
+nav li{
+  color:$colortexto;
+
+}
+
+nav a{
+  color: $colortexto;}
+  *{margin: 0;
+  padding: 0;
+  border: 0;
+}
+header{
+  background-color:$backgroundmain;
+  border: $bordes;
+  border-radius: 1px;
+  padding: 10px;
+}
+
+footer{
+  background-color:$backgroundmain;
+  overflow-x: hidden;
+  border: $bordes;
+  border-radius: 1px;
+  
+}
+main{
+  background-color: $backgroundmain;
+}
+
+article{
+  width: 20%;
+  padding: 10px;
+  border: $bordes;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+section h2{
+  color: $colortexto;
+  text-align: center;
+
+}
+
+article{
+  width: 30%;
+  padding: 10px;
+  border: $bordes;
+  border-radius: 10px;
+  margin: 10px;
+  }
+
+article button{
+width: 50%;
+margin: 10px;
+background-color: $backgroundmain;
+color: $colortexto;
+border: $bordes;
+border-radius: 10px;
+height: 30px
+}
+
+nav p{
+  font-size: small;
+}
+
+.redes{
+margin: 10px;
+}
+
+.container-fluid{
+background-color: $backgroundmain;
+border: 0px;
+margin: 0px;
+}
+
+.tiktok{
+  background: $backgroundmain;
+}
+
+.instagram{
+  background: $backgroundmain;
+}
+
+.facebook{
+  background: $backgroundmain;
+}
+

@@ -1,0 +1,88 @@
+body{
+background-color:$backgroundmain;
+overflow-x: hidden;
+}
+
+nav ul{
+display: flex;
+flex-direction:column-reverse;
+justify-content: space-between;
+
+}
+
+nav li{
+margin: 70px;
+text-align: justify;
+}
+
+.cards{
+  display: flex;
+  flex-direction:row-reverse;
+  flex-wrap: wrap;
+  justify-content: center
+  
+   }
+.button{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.alinear{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.row{
+  align-items: center;
+}
+
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: last baseline;
+}
+
+.footer2{
+   display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: last baseline;
+}
+
+.navegador{
+  display: grid;
+  grid-template-rows: 1fr 1fr ;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height:30vh;
+  padding: 10px;
+  justify-items: center;
+  align-items: baseline;
+  }
+
+  .logoo{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center
+}
+
+.container2{
+ display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+    
+}
+
+.preguntasfrecuentes{
+  margin: 70px;
+  text-align: justify;
+}
+
