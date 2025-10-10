@@ -2,5 +2,13 @@ $colortexto:#FFFFFF;
 $backgroundmain:#0D0707;
 $bordes:solid 3px #F27405;
 
+@mixin flexmenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: baseline;
+}
+
+
 
 
