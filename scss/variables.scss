@@ -9,6 +9,16 @@ $bordes:solid 3px #F27405;
     justify-items: baseline;
 }
 
+@mixin button1{
+    width: 50%;
+    margin: 10px;
+    background-color: $backgroundmain;
+    color: $colortexto;
+    border: $bordes;
+    border-radius: 10px;
+    height: 30px
+}
+
 
 
 
