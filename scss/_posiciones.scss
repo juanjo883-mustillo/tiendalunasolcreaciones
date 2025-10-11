@@ -32,7 +32,7 @@ text-align: justify;
   display: flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  @extend .row;
 }
 
 .row{
@@ -62,7 +62,7 @@ text-align: justify;
   display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  align-items: center;
+  @extend .row;
   align-content: center
 }
 
@@ -70,7 +70,7 @@ text-align: justify;
  display: flex;
   flex-direction: column-reverse;
   justify-content: center;
-  align-items: center;
+  @extend .row;
   align-content: center;
     
 }
