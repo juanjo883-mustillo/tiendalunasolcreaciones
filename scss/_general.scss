@@ -70,8 +70,8 @@ article{
   width: 30%;
   padding: 10px;
   border: $bordes;
-  border-radius: 10px;
-  margin: 10px;
+  border-radius: map-get($maps,border-radius);
+  margin: map-get($maps,margin);
   }
 
 article button{

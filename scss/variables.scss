@@ -19,6 +19,10 @@ $bordes:solid 3px #F27405;
     height: 30px
 }
 
+@mixin margintext ($margin, $text){
+    margin: $margin;
+    text-align: $text;
+}
 
 
 
