@@ -11,8 +11,7 @@ justify-content: space-between;
 }
 
 nav li{
-margin: 70px;
-text-align: justify;
+@include margintext(70px, justify);
 }
 
 .cards{
@@ -76,7 +75,6 @@ text-align: justify;
 }
 
 .preguntasfrecuentes{
-  margin: 70px;
-  text-align: justify;
+  @include margintext(70px, justify);
 }
 
