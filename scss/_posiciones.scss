@@ -39,11 +39,17 @@ nav li{
 }
 
 .grid{
-    @include flexmenu;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: baseline;;
 }
 
 .footer2{
-  @include flexmenu;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  justify-items: baseline;
 }
 
 .navegador{

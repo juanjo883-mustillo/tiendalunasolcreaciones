@@ -12,7 +12,7 @@
   }
   .grid {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
     justify-items: last baseline;
     height: 100vph;
