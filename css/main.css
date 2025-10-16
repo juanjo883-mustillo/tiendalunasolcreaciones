@@ -1,213 +1,6 @@
-p {
-  color: #FFFFFF;
-  font-size: 30px;
-  text-align: center;
-}
-
-title {
-  color: #FFFFFF;
-}
-
-h1 class {
-  color: #FFFFFF;
-}
-
-h3 {
-  color: #FFFFFF;
-  text-align: center;
-}
-
-div {
-  color: #FFFFFF;
-}
-
-header p {
-  color: #FFFFFF;
-}
-
-nav li {
-  color: #FFFFFF;
-}
-
-nav a {
-  color: #FFFFFF;
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-}
-
-header {
-  background-color: #0D0707;
-  border: solid 3px #F27405;
-  border-radius: 1px;
-  padding: 10px;
-}
-
-footer {
-  background-color: #0D0707;
-  overflow-x: hidden;
-  border: solid 3px #F27405;
-  border-radius: 1px;
-}
-
-main {
-  background: #0D0707;
-  background: radial-gradient(circle, rgb(1, 2, 5) 0%, rgb(182, 79, 99) 100%);
-}
-
-article {
-  width: 20%;
-  padding: 10px;
-  border: solid 3px #F27405;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-section h2 {
-  text-align: center;
-  font-size: 36px;
-  color: #FFFFFF;
-}
-
-article {
-  width: 30%;
-  padding: 10px;
-  border: solid 3px #F27405;
-  border-radius: 10px;
-  margin: 10px;
-}
-
-article button {
-  width: 50%;
-  margin: 10px;
-  background-color: #0D0707;
-  color: #FFFFFF;
-  border: solid 3px #F27405;
-  border-radius: 10px;
-  height: 30px;
-}
-
-nav p {
-  font-size: small;
-}
-
-.redes {
-  margin: 10px;
-}
-
-.container-fluid {
-  background-color: #0D0707;
-  border: 0px;
-  margin: 0px;
-}
-
-.tiktok {
-  background: #0D0707;
-}
-
-.instagram {
-  background: #0D0707;
-}
-
-.facebook {
-  background: #0D0707;
-}
-
-button:hover {
-  color: violet;
-  background-color: #0D0707;
-}
-
-body {
-  background-color: #0D0707;
-  overflow-x: hidden;
-}
-
-nav ul {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
-}
-
-nav li {
-  margin: 70px;
-  text-align: justify;
-}
-
-.cards {
-  display: flex;
-  flex-direction: row-reverse;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.button {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.alinear {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.row, .container2, .logoo, .alinear {
-  align-items: center;
-}
-
-.grid {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-items: baseline;
-}
-
-.footer2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  justify-items: baseline;
-}
-
-.navegador {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: repeat(3, 1fr);
-  width: 100%;
-  height: 30vh;
-  padding: 10px;
-  justify-items: center;
-  align-items: baseline;
-}
-
-.logoo {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-content: center;
-}
-
-.container2 {
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: center;
-  align-content: center;
-}
-
-.preguntasfrecuentes {
-  margin: 70px;
-  text-align: justify;
-}
-
-@media (max-width: 577px) {
+@media (min-width: 1px) and (max-width: 577px) {
   .cards {
     flex-direction: column;
-    align-items: center;
   }
   .navegador {
     display: grid;
@@ -220,14 +13,14 @@ nav li {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: last baseline;
+    justify-items: baseline;
     height: 100vph;
   }
   .footer2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: last baseline;
+    justify-items: baseline;
   }
   .body {
     max-width: 100%;
@@ -357,6 +150,217 @@ nav li {
 .body {
   max-width: 100%;
   overflow-x: hidden;
+}
+
+p {
+  color: #FFFFFF;
+  font-size: 30px;
+  text-align: center;
+}
+
+title {
+  color: #FFFFFF;
+}
+
+h1 class {
+  color: #FFFFFF;
+}
+
+h3 {
+  color: #FFFFFF;
+  text-align: center;
+}
+
+div {
+  color: #FFFFFF;
+}
+
+header p {
+  color: #FFFFFF;
+}
+
+nav li {
+  color: #FFFFFF;
+}
+
+nav a {
+  color: #FFFFFF;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+header {
+  background-color: black;
+  border: solid 3px #F27405;
+  border-radius: 1px;
+  padding: 10px;
+}
+
+footer {
+  background-color: black;
+  overflow-x: hidden;
+  border: solid 3px #F27405;
+  border-radius: 1px;
+}
+
+main {
+  background: black;
+  background: radial-gradient(circle, rgb(1, 2, 5) 0%, rgb(182, 79, 99) 100%);
+}
+
+article {
+  width: 20%;
+  padding: 10px;
+  border: solid 3px #F27405;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+section h2 {
+  text-align: center;
+  font-size: 36px;
+  color: #FFFFFF;
+}
+
+article {
+  width: 30%;
+  padding: 10px;
+  border: solid 3px #F27405;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+article button {
+  width: 50%;
+  margin: 10px;
+  background-color: black;
+  color: #FFFFFF;
+  border: solid 3px #F27405;
+  border-radius: 10px;
+  height: 30px;
+}
+
+nav p {
+  font-size: small;
+}
+
+.redes {
+  margin: 10px;
+}
+
+.container-fluid {
+  background-color: black;
+  border: 0px;
+  margin: 0px;
+}
+
+.tiktok {
+  background: black;
+}
+
+.instagram {
+  background: black;
+}
+
+.facebook {
+  background: black;
+}
+
+button:hover {
+  color: violet;
+  background-color: black;
+}
+
+body {
+  background-color: black;
+  overflow-x: hidden;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 70px;
+  text-align: justify;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.alinear {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.row, .container2, .logoo, .alinear {
+  align-items: center;
+}
+
+.grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: baseline;
+}
+
+.footer2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  justify-items: baseline;
+}
+
+.navegador {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  height: 30vh;
+  padding: 10px;
+  justify-items: center;
+  align-items: baseline;
+}
+
+.logoo {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-content: center;
+}
+
+.preguntasfrecuentes {
+  margin: 70px;
+  text-align: justify;
+}
+
+.lista2 {
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=main.css.map */

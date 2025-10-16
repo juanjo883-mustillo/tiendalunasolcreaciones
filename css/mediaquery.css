@@ -1,7 +1,6 @@
-@media (max-width: 577px) {
+@media (min-width: 1px) and (max-width: 577px) {
   .cards {
     flex-direction: column;
-    align-items: center;
   }
   .navegador {
     display: grid;
@@ -14,14 +13,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: last baseline;
+    justify-items: baseline;
     height: 100vph;
   }
   .footer2 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    justify-items: last baseline;
+    justify-items: baseline;
   }
   .body {
     max-width: 100%;
