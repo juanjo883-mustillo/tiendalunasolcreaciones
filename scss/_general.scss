@@ -49,8 +49,8 @@ footer{
   
 }
 main{
-  background: #010205;
-background: radial-gradient(circle, rgba(1, 2, 5, 1) 0%, rgb(182, 79, 99) 100%);
+  background: $backgroundmain;
+  background: radial-gradient(circle, rgba(1, 2, 5, 1) 0%, rgb(182, 79, 99) 100%);
 }
 article{
   width: 20%;
