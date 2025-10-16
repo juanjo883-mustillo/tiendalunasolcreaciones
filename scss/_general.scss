@@ -61,9 +61,10 @@ article{
 }
 
 section h2{
-  color: $colortexto;
   text-align: center;
-
+  font-size: 36px;
+  color: $colortexto;
+  
 }
 
 article{
@@ -71,7 +72,7 @@ article{
   padding: 10px;
   border: $bordes;
   border-radius: map-get($maps,border-radius);
-  margin: map-get($maps,margin);
+  margin: map-get($maps,margin );
   }
 
 article button{
@@ -105,3 +106,7 @@ margin: 0px;
 
 }
 
+button:hover{
+  color: violet;
+  background-color: $backgroundmain;
+}
