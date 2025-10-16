@@ -1,6 +1,7 @@
 @media (min-width: 1px) and (max-width: 577px) {
   .cards {
     flex-direction: column;
+    align-items: center;
   }
   .navegador {
     display: grid;
