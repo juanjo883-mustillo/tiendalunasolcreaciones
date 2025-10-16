@@ -54,7 +54,8 @@ footer {
 }
 
 main {
-  background-color: #0D0707;
+  background: #010205;
+  background: radial-gradient(circle, rgb(1, 2, 5) 0%, rgb(182, 79, 99) 100%);
 }
 
 article {
