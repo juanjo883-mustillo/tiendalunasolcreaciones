@@ -3,7 +3,12 @@ background-color:$backgroundmain;
 overflow-x: hidden;
 }
 
-
+.footer2{
+  display: flex;
+   flex-direction: row;
+  justify-content: space-between;
+  justify-items: baseline;
+}
 nav li{
 @include margintext(70px, justify);
 }
@@ -73,4 +78,6 @@ nav li{
 .preguntasfrecuentes{
   @include margintext(70px, justify);
 }
+
+
 
