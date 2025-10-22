@@ -5,19 +5,25 @@
   }
   .grid {
     flex-direction: column;
+    max-width: 100%;
   }
   .cards {
     flex-direction: column;
     align-items: center;
+    max-width: 100%;
   }
   article {
     width: 100%;
+    max-width: 100%;
   }
   .footer2 {
     flex-direction: column;
+    max-width: 100%;
   }
   body {
+    overflow-x: hidden;
     position: relative;
+    margin: 0%;
   }
 }
 @media (min-width: 578px) and (max-width: 767px) {
@@ -44,7 +50,7 @@
     flex-direction: column;
   }
   article {
-    width: 50%;
+    width: 100%;
   }
 }
 @media (min-width: 994px) and (max-width: 1283px) {
