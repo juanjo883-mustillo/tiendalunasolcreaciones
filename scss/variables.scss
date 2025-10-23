@@ -1,28 +1,25 @@
-$colortexto:#FFFFFF;
-$backgroundmain:black;
-$bordes:solid 3px #F27405;
+$colortexto: #ffffff;
+$backgroundmain: black;
+$bordes: solid 3px #f27405;
 
-
-@mixin button1{
-    width: 50%;
-    margin: 10px;
-    background-color: $backgroundmain;
-    color: $colortexto;
-    border: $bordes;
-    border-radius: 10px;
-    height: 30px
+@mixin button1 {
+  width: 50%;
+  margin: 10px;
+  background-color: $backgroundmain;
+  color: $colortexto;
+  border: $bordes;
+  border-radius: 10px;
+  height: 30px;
 }
 
-@mixin margintext ($margin, $text){
-    margin: $margin;
-    text-align: $text;
+@mixin margintext($margin, $text) {
+  margin: $margin;
+  text-align: $text;
 }
 
 //maps
 
-$maps:(
-    border-radius: 10px,
-    margin: 10px,
+$maps: (
+  border-radius: 10px,
+  margin: 10px,
 );
-
-
