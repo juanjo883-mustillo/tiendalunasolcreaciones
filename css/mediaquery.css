@@ -1,64 +1,121 @@
-@media (min-width: 1px) and (max-width: 577px) {
-  .navegador {
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 1fr;
+@charset "UTF-8";
+/* Estilos para dispositivos móviles */
+@media (min-width: 1px) and (max-width: 576px) {
+  /* Estilos para dispositivos móviles */
+  header {
+    padding: 10px;
   }
-  .grid {
-    flex-direction: column;
-    max-width: 100%;
-  }
-  .cards {
-    flex-direction: column;
-    align-items: center;
-    max-width: 100%;
-  }
-  article {
-    width: 100%;
-    max-width: 100%;
-  }
-  .footer2 {
-    flex-direction: column;
-    max-width: 100%;
-  }
-  body {
-    overflow-x: hidden;
-    position: relative;
-    margin: 0%;
-  }
-}
-@media (min-width: 578px) and (max-width: 767px) {
-  .navegador {
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-columns: 1fr;
-  }
-  .grid {
-    flex-direction: column;
-  }
-  .cards {
+  nav {
     flex-direction: column;
     align-items: center;
   }
-  article {
+  .logolunasol img {
+    width: 100px;
+    height: auto;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid li {
+    margin-bottom: 10px; /* agrega espacio entre los elementos de la navegación */
+  }
+  .grid li a {
+    font-size: 16px;
+  }
+  .carousel-inner img {
+    height: auto;
+    object-fit: cover;
     width: 100%;
   }
-  .footer2 {
+  .card {
+    max-width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-content {
+    flex-direction: column; /* cambia la disposición del footer a columna */
+  }
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    margin-bottom: 20px; /* agrega espacio entre los elementos del footer */
+  }
+  .packremeras {
     flex-direction: column;
+    align-items: center;
+  }
+  .packremeras .card {
+    width: 80%;
+    margin-bottom: 20px;
   }
 }
-@media (min-width: 768px) and (max-width: 993px) {
-  .grid {
-    flex-direction: column;
+@media (min-width: 577px) and (max-width: 768px) {
+  header {
+    padding: 10px;
   }
-  article {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logolunasol img {
+    width: 100px;
+    height: auto;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid li a {
+    font-size: 16px;
+  }
+  .carousel-inner img {
+    height: auto;
+    object-fit: cover;
     width: 100%;
   }
-}
-@media (min-width: 994px) and (max-width: 1283px) {
-  .grid {
+  .card {
+    max-width: 300px;
+    margin: 0 auto;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer-content {
     flex-direction: column;
   }
-  article {
-    width: 40%;
+  .packremeras {
+    flex-direction: column;
+    align-items: center;
+  }
+  .packremeras .card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .logolunasol img {
+    width: 100%;
+    height: auto;
+  }
+  .grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .grid li a {
+    font-size: 16px;
+  }
+  .packremeras .card {
+    width: 80%;
+    margin-bottom: 20px;
+    margin: 5px;
   }
 }
 

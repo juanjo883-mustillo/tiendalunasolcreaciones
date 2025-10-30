@@ -1,92 +1,118 @@
-p {
-  color:$colortexto;
-  font-size: 30px;
-  text-align: center;
-}
 
-title {
-  color:$colortexto;
-}
-h1 class{
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
   color: $colortexto;
-   }
-h3{
-color:$colortexto;
-text-align: center;
+  margin: 0;
+  padding:0;
 }
-
-
-div{
-  color: $colortexto;
-}
-
-header p{
-  color: $colortexto;
-}
-nav li{
-  color:$colortexto;
-
-}
-
-nav a{
-  color: $colortexto;}
-  *{margin: 0;
-  padding: 0;
-  border: 0;
-}
-header{
-  background-color:$backgroundmain;
-  border: $bordes;
-  border-radius: 1px;
-  padding: 10px;
-}
-
-footer{
-  background-color:$backgroundmain;
-  overflow-x: hidden;
-  border: $bordes;
-  border-radius: 1px;
+header {
+  background-color: $backgroundmain ;
+  color: $colortexto ;
+  padding: 1rem 2rem;
+ 
+  width: 100%;
+  top: 0;
+  z-index: 1000;
   
 }
-main{
-  background: $backgroundmain;
-  background: radial-gradient(circle, rgba(1, 2, 5, 1) 0%, rgb(182, 79, 99) 100%);
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0 
+  
 }
 
+main{
+  background-color:pink;
+}
+
+
+.grid li a {
+  padding: 1rem 1rem;
+  text-decoration: none;
+  color: $colortexto;
+  transition: color .3s ease;
+  
+}
+.grid li a:hover{
+  color: pink;
+}
+
+.contacto1{
+  max-width: 600px;
+  margin: 2rem auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.contacto1 input{
+  padding: 1rem;
+  border: 1px solid red;
+  border-radius: 5px;
+
+}
+
+
+
+.nav-links2{
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+  
+}
+
+button{
+   margin: 5px;
+  background-color:white;
+  color: black;
+  font-weight: bold;
+  border: $bordes;
+  border-radius: 10px;
+ 
+  font-size: 15px;
+  
+}
+
+button:hover{
+transform: scale(1.05);
+}
+
+
+
+.logolunasol{
+  display: flex;
+  justify-content: center;
+}
 
 section h2{
-  text-align: center;
-  font-size: 36px;
-  color: $colortexto;
-  
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  counter-reset: pink;
+  color: black;
 }
 
-article{
-  width: 30%;
-  padding: 10px;
-  border: $bordes;
-  border-radius: map-get($maps,border-radius);
-  margin: map-get($maps,margin );
-  }
 
-article button{
-@include button1
+.cards{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center
 }
 
-nav p{
-  font-size: small;
-}
 
-.redes{
-margin: 10px;
-}
 
-.container-fluid{
-background-color: $backgroundmain;
-border: 0px;
-margin: 0px;
-}
 
+.footer-left a{
+  color: white;
+  text-decoration: none;
+  padding: 1rem 1rem;
+
+}
 .tiktok{
   background: $backgroundmain;
 }
@@ -96,11 +122,160 @@ margin: 0px;
 }
 
 .facebook{
-  background: $backgroundmain;
+  background: $backgroundmain;}
 
+
+section {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-button:hover{
-  color: rgb(27, 201, 245);
-  background-color: $backgroundmain;
+
+
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 50px 0;
+  
+}
+
+
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container2 p {
+  font-size: 2rem;
+  line-height: 1.3;
+  color: $colortexto;
+  padding: 10px;
+  width: 50%;
+}
+
+.container2 img {
+  width: 50%;
+  object-fit: cover;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.footer-links:hover{
+color: pink;
+}
+
+.footer-links li a:hover {
+  color: pink;
+  transition: color 0.3s ease;
+}
+
+section {
+  max-width: 1200px;
+  padding: 10px;
+  text-align: center;
+}
+
+section h2 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.preguntasfrecuentes {
+  font-size: 26px;
+  line-height: 1.5;
+  color: #666;
+  text-align: center;
+ 
+} 
+
+article {
+  width: 250px;
+  margin: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background-color: white;
+}
+
+article img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.titulo {
+  text-align: center;
+  font-size: 30px;
+  padding-top: 50px;
+}
+
+.p{
+  color: black;
+}
+
+.productos-destacados {
+  padding: 20px;
+  text-align: center;
+}
+
+.tarjeta {
+  margin: 20px auto;
+  width: 250px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.tarjeta img {
+  width: 90%;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  margin:5px;
+}
+
+.tarjeta h3 {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.tarjeta p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+}
+
+.tarjeta button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 18px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.tarjeta button:hover {
+  background-color: #444;
+}
+
+.btn-primarya{
+  background-color: pink;
+}
+
+h3{
+  color: #333;
+}
+p{
+
+  color: #333;
+  font-weight: bold;
 }

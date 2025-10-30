@@ -1,25 +1,8 @@
-$colortexto: #ffffff;
+$colortexto: white;
 $backgroundmain: black;
-$bordes: solid 3px #f27405;
+$bordes: solid 5px BLACK;
 
-@mixin button1 {
-  width: 50%;
-  margin: 10px;
-  background-color: $backgroundmain;
-  color: $colortexto;
-  border: $bordes;
-  border-radius: 10px;
-  height: 30px;
-}
 
-@mixin margintext($margin, $text) {
-  margin: $margin;
-  text-align: $text;
-}
 
 //maps
 
-$maps: (
-  border-radius: 10px,
-  margin: 10px,
-);
