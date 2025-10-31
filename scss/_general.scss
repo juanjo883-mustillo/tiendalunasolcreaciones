@@ -11,8 +11,7 @@ header {
   background-color: $backgroundmain ;
   color: $colortexto ;
   padding: 1rem 2rem;
- 
-  width: 100%;
+   width: 100%;
   top: 0;
   z-index: 1000;
   
@@ -36,6 +35,8 @@ main{
   text-decoration: none;
   color: $colortexto;
   transition: color .3s ease;
+  font-size: 1rem;
+  font-weight: bold;
   
 }
 .grid li a:hover{
@@ -66,7 +67,7 @@ main{
 }
 
 button{
-   margin: 5px;
+  margin: 5px;
   background-color:white;
   color: black;
   font-weight: bold;
@@ -97,20 +98,13 @@ section h2{
 }
 
 
-.cards{
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center
-}
-
-
-
 
 .footer-left a{
   color: white;
   text-decoration: none;
   padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
 
 }
 .tiktok{
@@ -141,29 +135,23 @@ section {
 
 
 
-.container2 {
+.container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
+  
 }
 
-.container2 p {
+.container p {
   font-size: 2rem;
-  line-height: 1.3;
   color: $colortexto;
-  padding: 10px;
-  width: 50%;
+  padding: 5px;
+  width: 100%;
+  text-align: justify;
 }
 
-.container2 img {
-  width: 50%;
-  object-fit: cover;
-  border-radius: 0;
-  box-shadow: none;
-}
+
 
 .footer-links:hover{
 color: pink;
@@ -190,8 +178,10 @@ section h2 {
 .preguntasfrecuentes {
   font-size: 26px;
   line-height: 1.5;
-  color: #666;
+  color:white;
   text-align: center;
+  text-align: justify;
+  padding: 10px;
  
 } 
 
@@ -219,7 +209,8 @@ article img {
 }
 
 .p{
-  color: black;
+  color: $colortexto;
+  
 }
 
 .productos-destacados {

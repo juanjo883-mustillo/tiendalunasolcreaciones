@@ -57,7 +57,34 @@
     width: 80%;
     margin-bottom: 20px;
   }
+  .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
+.container p {
+  font-size: 1rem;
+  color: $colortexto;
+  padding: 5px;
+  width: 100%;
+  text-align: justify;
+}
+
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+      
+  }
+
+  .grid li a {
+  font-size: 1rem;   
+}
+
+}
+
+
 
 @media (min-width: 577px) and (max-width: 768px) {
 
@@ -106,7 +133,10 @@ nav {
     width: 80%;
     margin-bottom: 20px;
   }
-
+.cards {
+   justify-content: center;
+      
+  }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
@@ -132,6 +162,15 @@ nav {
     width: 80%;
     margin-bottom: 20px;
     margin: 5px;
+}
 
 }
+
+@media (min-width: 993px) and (max-width: 1200px) {
+
+
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+
+
 }

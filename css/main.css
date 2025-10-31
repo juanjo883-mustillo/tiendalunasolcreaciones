@@ -51,6 +51,26 @@
     width: 80%;
     margin-bottom: 20px;
   }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container p {
+    font-size: 1rem;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    text-align: justify;
+  }
+  .cards {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .grid li a {
+    font-size: 1rem;
+  }
 }
 @media (min-width: 577px) and (max-width: 768px) {
   header {
@@ -93,6 +113,9 @@
   .packremeras .card {
     width: 80%;
     margin-bottom: 20px;
+  }
+  .cards {
+    justify-content: center;
   }
 }
 @media (min-width: 769px) and (max-width: 992px) {
@@ -152,6 +175,8 @@ main {
   text-decoration: none;
   color: white;
   transition: color 0.3s ease;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .grid li a:hover {
@@ -204,17 +229,12 @@ section h2 {
   color: black;
 }
 
-.cards {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
 .footer-left a {
   color: white;
   text-decoration: none;
   padding: 1rem 1rem;
+  font-size: 1rem;
+  font-weight: bold;
 }
 
 .tiktok {
@@ -240,28 +260,19 @@ section {
   padding: 50px 0;
 }
 
-.container2 {
+.container {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 1200px;
-  margin: 0 auto;
 }
 
-.container2 p {
+.container p {
   font-size: 2rem;
-  line-height: 1.3;
   color: white;
-  padding: 10px;
-  width: 50%;
-}
-
-.container2 img {
-  width: 50%;
-  object-fit: cover;
-  border-radius: 0;
-  box-shadow: none;
+  padding: 5px;
+  width: 100%;
+  text-align: justify;
 }
 
 .footer-links:hover {
@@ -289,8 +300,10 @@ section h2 {
 .preguntasfrecuentes {
   font-size: 26px;
   line-height: 1.5;
-  color: #666;
+  color: white;
   text-align: center;
+  text-align: justify;
+  padding: 10px;
 }
 
 article {
@@ -317,7 +330,7 @@ article img {
 }
 
 .p {
-  color: black;
+  color: white;
 }
 
 .productos-destacados {
@@ -455,9 +468,9 @@ section h2 {
 }
 
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .packremeras {

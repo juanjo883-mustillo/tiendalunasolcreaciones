@@ -1,122 +1,17 @@
-@charset "UTF-8";
-/* Estilos para dispositivos móviles */
-@media (min-width: 1px) and (max-width: 576px) {
-  /* Estilos para dispositivos móviles */
-  header {
-    padding: 10px;
-  }
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logolunasol img {
-    width: 100px;
-    height: auto;
-  }
-  .grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .grid li {
-    margin-bottom: 10px; /* agrega espacio entre los elementos de la navegación */
-  }
-  .grid li a {
-    font-size: 16px;
-  }
-  .carousel-inner img {
-    height: auto;
-    object-fit: cover;
-    width: 100%;
-  }
-  .card {
-    max-width: 300px;
-    margin: 0 auto;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .footer-content {
-    flex-direction: column; /* cambia la disposición del footer a columna */
-  }
-  .footer-left,
-  .footer-center,
-  .footer-right {
-    margin-bottom: 20px; /* agrega espacio entre los elementos del footer */
-  }
-  .packremeras {
-    flex-direction: column;
-    align-items: center;
-  }
-  .packremeras .card {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 577px) and (max-width: 768px) {
-  header {
-    padding: 10px;
-  }
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logolunasol img {
-    width: 100px;
-    height: auto;
-  }
-  .grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .grid li a {
-    font-size: 16px;
-  }
-  .carousel-inner img {
-    height: auto;
-    object-fit: cover;
-    width: 100%;
-  }
-  .card {
-    max-width: 300px;
-    margin: 0 auto;
-    align-items: center;
-    margin-bottom: 20px;
-  }
-  .footer-content {
-    flex-direction: column;
-  }
-  .packremeras {
-    flex-direction: column;
-    align-items: center;
-  }
-  .packremeras .card {
-    width: 80%;
-    margin-bottom: 20px;
-  }
-}
-@media (min-width: 769px) and (max-width: 992px) {
-  nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  .logolunasol img {
-    width: 100%;
-    height: auto;
-  }
-  .grid {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .grid li a {
-    font-size: 16px;
-  }
-  .packremeras .card {
-    width: 80%;
-    margin-bottom: 20px;
-    margin: 5px;
-  }
-}
+/* Error: Undefined variable.
+ *    ,
+ * 69 |   color: $colortexto;
+ *    |          ^^^^^^^^^^^
+ *    '
+ *   scss\mediaquery.scss 69:10  root stylesheet */
 
-/*# sourceMappingURL=mediaquery.css.map */
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\a    \2577 \a 69 \2502    color: $colortexto;\d\a    \2502           ^^^^^^^^^^^\a    \2575 \a   scss\\mediaquery.scss 69:10  root stylesheet";
+}

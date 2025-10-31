@@ -79,9 +79,10 @@ section h2{
   margin: 0 10px;
 }
 .cards {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  
 }
 
 
@@ -90,6 +91,7 @@ section h2{
   flex-wrap: wrap;
   justify-content: center;
 }
+
 
 
 
