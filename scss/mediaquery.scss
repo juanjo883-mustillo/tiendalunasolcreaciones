@@ -1,13 +1,14 @@
-/* Estilos para dispositivos móviles */
 @media (min-width: 1px) and (max-width: 576px) {
-  /* Estilos para dispositivos móviles */
+
   header {
     padding: 10px;
   }
+
   nav {
     flex-direction: column;
     align-items: center;
   }
+
   .logolunasol img {
     width: 100px;
     height: auto;
@@ -20,7 +21,7 @@
   }
 
   .grid li {
-    margin-bottom: 10px; /* agrega espacio entre los elementos de la navegación */
+    margin-bottom: 10px;
   }
 
   .grid li a {
@@ -32,6 +33,7 @@
     object-fit: cover;
     width: 100%;
   }
+
   .card {
     max-width: 300px;
     margin: 0 auto;
@@ -40,47 +42,50 @@
   }
 
   .footer-content {
-    flex-direction: column; /* cambia la disposición del footer a columna */
+    flex-direction: column;
   }
 
   .footer-left,
   .footer-center,
   .footer-right {
-    margin-bottom: 20px; /* agrega espacio entre los elementos del footer */
+    margin-bottom: 20px;
   }
 
   .packremeras {
     flex-direction: column;
     align-items: center;
   }
+
   .packremeras .card {
     width: 80%;
     margin-bottom: 20px;
   }
+
   .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
-}
-.container p {
-  font-size: 1rem;
-  color: $colortexto;
-  padding: 5px;
-  width: 100%;
-  text-align: justify;
-}
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .container p {
+    font-size: 1rem;
+    color: $colortexto;
+    padding: 5px;
+    width: 100%;
+    text-align: justify;
+  }
 
   .cards {
     flex-direction: column;
     justify-content: center;
-      
+
   }
 
   .grid li a {
-  font-size: 1rem;   
-}
+    font-size: 1rem;
+  }
 
 }
 
@@ -88,10 +93,11 @@
 
 @media (min-width: 577px) and (max-width: 768px) {
 
-    header {
+  header {
     padding: 10px;
   }
-nav {
+
+  nav {
     flex-direction: column;
     align-items: center;
   }
@@ -100,47 +106,52 @@ nav {
     width: 100px;
     height: auto;
   }
+
   .grid {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-   .grid li a {
+  .grid li a {
     font-size: 16px;
   }
 
-   .carousel-inner img {
+  .carousel-inner img {
     height: auto;
     object-fit: cover;
     width: 100%;
   }
+
   .card {
     max-width: 300px;
     margin: 0 auto;
     align-items: center;
     margin-bottom: 20px;
   }
+
   .footer-content {
-    flex-direction: column; 
+    flex-direction: column;
   }
 
   .packremeras {
     flex-direction: column;
     align-items: center;
   }
+
   .packremeras .card {
     width: 80%;
     margin-bottom: 20px;
   }
-.cards {
-   justify-content: center;
-      
+
+  .cards {
+    justify-content: center;
+
   }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
-    nav {
+  nav {
     flex-direction: column;
     align-items: center;
   }
@@ -149,28 +160,31 @@ nav {
     width: 100%;
     height: auto;
   }
+
   .grid {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-   .grid li a {
+  .grid li a {
     font-size: 16px;
   }
-   .packremeras .card {
+
+  .packremeras .card {
     width: 80%;
     margin-bottom: 20px;
     margin: 5px;
-}
+  }
 
 }
 
 @media (min-width: 993px) and (max-width: 1200px) {
-
+  //como la pantalla se ve ya como el diseño original ,no agregue ningun dato en esta media query
 
 }
-@media (min-width: 1201px) and (max-width: 1400px) {
 
+@media (min-width: 1201px) and (max-width: 1400px) {
+  // aqui hice lo mismo que en la anterior media query
 
 }

@@ -1,146 +1,105 @@
-
-
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   color: $colortexto;
   margin: 0;
-  padding:0;
+  padding: 0;
 }
+
 header {
-  background-color: $backgroundmain ;
-  color: $colortexto ;
+  background-color: $backgroundmain;
+  color: $colortexto;
   padding: 1rem 2rem;
-   width: 100%;
+  width: 100%;
   top: 0;
   z-index: 1000;
-  
-}
-nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  max-width: 1200px;
-  padding: 0 
-  
 }
 
-main{
-  background-color:pink;
+main {
+  background-color: $fondo;
 }
-
 
 .grid li a {
   padding: 1rem 1rem;
   text-decoration: none;
   color: $colortexto;
-  transition: color .3s ease;
-  font-size: 1rem;
-  font-weight: bold;
-  
-}
-.grid li a:hover{
-  color: pink;
+  transition: color 0.3s ease;
+  @include letras;
 }
 
-.contacto1{
+.grid li a:hover {
+  color: $fondo;
+}
+
+.contacto1 {
   max-width: 600px;
   margin: 2rem auto;
   display: grid;
   gap: 1rem;
 }
 
-.contacto1 input{
+.contacto1 input {
   padding: 1rem;
-  border: 1px solid red;
+  border: 1px solid $fondo;
   border-radius: 5px;
-
 }
 
-
-
-.nav-links2{
+.nav-links2 {
   display: flex;
   list-style: none;
   gap: 2rem;
-  
 }
 
-button{
+button {
   margin: 5px;
-  background-color:white;
-  color: black;
+  background-color: $colortexto;
+  color: $backgroundmain;
   font-weight: bold;
   border: $bordes;
   border-radius: 10px;
- 
   font-size: 15px;
-  
 }
 
-button:hover{
-transform: scale(1.05);
+button:hover {
+  transform: scale(1.05);
 }
 
-
-
-.logolunasol{
-  display: flex;
-  justify-content: center;
-}
-
-section h2{
+section h2 {
   font-size: 3.5rem;
   margin-bottom: 1rem;
   font-weight: bold;
-  counter-reset: pink;
-  color: black;
+  counter-reset: $fondo;
+  color: $backgroundmain;
 }
 
-
-
-.footer-left a{
-  color: white;
+.footer-left a {
+  color: $colortexto;
   text-decoration: none;
   padding: 1rem 1rem;
-  font-size: 1rem;
-  font-weight: bold;
-
+  @include letras;
 }
-.tiktok{
+
+.tiktok {
   background: $backgroundmain;
 }
 
-.instagram{
+.instagram {
   background: $backgroundmain;
 }
 
-.facebook{
-  background: $backgroundmain;}
-
+.facebook {
+  background: $backgroundmain;
+}
 
 section {
   max-width: 1200px;
   margin: 0 auto;
 }
 
-
-
 section {
   max-width: 100%;
   margin: 0 auto;
   padding: 50px 0;
-  
-}
-
-
-
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  
 }
 
 .container p {
@@ -151,14 +110,12 @@ section {
   text-align: justify;
 }
 
-
-
-.footer-links:hover{
-color: pink;
+.footer-links:hover {
+  color: $fondo;
 }
 
 .footer-links li a:hover {
-  color: pink;
+  color: $fondo;
   transition: color 0.3s ease;
 }
 
@@ -171,19 +128,18 @@ section {
 section h2 {
   font-size: 30px;
   font-weight: bold;
-  margin-bottom: 10px;
-  color: #333;
+  margin-bottom: map-get($links , padding);
+  color: map-get($links, color);
 }
 
 .preguntasfrecuentes {
   font-size: 26px;
   line-height: 1.5;
-  color:white;
+  color: $colortexto;
   text-align: center;
   text-align: justify;
-  padding: 10px;
- 
-} 
+  padding: map-get($links , padding)
+}
 
 article {
   width: 250px;
@@ -191,7 +147,7 @@ article {
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  background-color: white;
+  background-color: $colortexto;
 }
 
 article img {
@@ -208,9 +164,8 @@ article img {
   padding-top: 50px;
 }
 
-.p{
+.p {
   color: $colortexto;
-  
 }
 
 .productos-destacados {
@@ -231,7 +186,7 @@ article img {
   object-fit: cover;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  margin:5px;
+  margin: 5px;
 }
 
 .tarjeta h3 {
@@ -241,13 +196,13 @@ article img {
 
 .tarjeta p {
   font-size: 16px;
-  color: #666;
+  color: map-get($links , color);
   margin-bottom: 10px;
 }
 
 .tarjeta button {
   background-color: #333;
-  color: #fff;
+  color: $colortexto;
   border: none;
   padding: 8px 18px;
   font-size: 12px;
@@ -255,18 +210,18 @@ article img {
 }
 
 .tarjeta button:hover {
-  background-color: #444;
+  background-color: map-get($links , color);
 }
 
-.btn-primarya{
-  background-color: pink;
+.btn-primarya {
+  background-color: $fondo;
 }
 
-h3{
-  color: #333;
+h3 {
+  color: map-get($links, color)
 }
-p{
 
-  color: #333;
+p {
+  color: $colortexto;
   font-weight: bold;
 }

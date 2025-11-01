@@ -1,35 +1,48 @@
-.logolunasol{
+.logolunasol {
   display: flex;
   justify-content: center;
 }
-.grid{
+
+.grid {
   display: flex;
-  
   list-style: none;
-  
+
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 0
+}
 
-section article h3{
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+section article h3 {
+  @extend .container;
+
+}
+
+section article p {
   display: flex;
   align-items: center;
   justify-content: center;
-  
-}
-
-section article p{
-display: flex;
-align-items: center;
-justify-content: center;  
 
 }
 
-.button{
-display: flex;
-justify-content: center; 
+.button {
+  display: flex;
+  justify-content: center;
 }
 
-section h2{
+section h2 {
   display: flex;
   justify-content: center;
 }
@@ -43,8 +56,7 @@ section h2{
 }
 
 .footer-left {
-  display: flex;
-  flex-direction: column;
+  @include display;
   justify-content: center;
 }
 
@@ -64,8 +76,7 @@ section h2{
 }
 
 .footer-right {
-  display: flex;
-  flex-direction: column;
+  @include display;
   align-items: center;
 }
 
@@ -78,22 +89,17 @@ section h2{
 .social-media button {
   margin: 0 10px;
 }
+
 .cards {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  
+
 }
 
 
- .packremeras {
+.packremeras {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-
-
-
-
-
-
